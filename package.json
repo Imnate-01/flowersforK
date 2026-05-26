@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "node scripts/build.mjs",
     "dev": "node dev-server.mjs",
     "dev:phone": "set HOST=0.0.0.0&& node dev-server.mjs"
   }
